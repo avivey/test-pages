@@ -16,11 +16,12 @@ title: a title.
 
         <ul>
         {% for ob in site.data.random %}
-          <li>
+          <li><ul>
+           <li> {{ ob }}</li>
+           <li> {{ ob.name }}</li>
+           <li> {{ ob.type }}</li>
 
-            {{ ob }}
-
-          </li>
+          </ul></li>
         {% endfor %}
         </ul>
 
