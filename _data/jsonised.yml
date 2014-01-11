@@ -1,2 +1,2 @@
-["item 1": {"name": "one", "type": "thing"},
-"item 2": {"name": "me", "type": "that"}]
+[ {"name": "one", "type": "thing"},
+ {"name": "me", "type": "that"}]
