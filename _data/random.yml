@@ -1,4 +1,4 @@
--"item 1": {"name": "one", "type": "thing"}
+{"name": "one", "type": "thing"}
 {"name": "me", "type": "that"}
 - name: you
   type: are
