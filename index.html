@@ -31,8 +31,22 @@ title: x
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
+    <h2>Part one:</h2>
     <ul>
         {% for ob in site.data.random %}
+          <li>
+           {{ ob }}
+           <ul>
+            <li> {{ ob.name }}</li>
+            <li> {{ ob.type }}</li>
+           </ul>
+          </li>
+        {% endfor %}
+        </ul>
+
+    <h2>Part Two:</h2>
+    <ul>
+        {% for ob in site.data.jsonised %}
           <li>
            {{ ob }}
            <ul>
