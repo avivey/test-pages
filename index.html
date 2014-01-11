@@ -33,12 +33,13 @@ title: x
         <section id="main-content">
     <ul>
         {% for ob in site.data.random %}
-          <li><ul>
-           <li> {{ ob }}</li>
-           <li> {{ ob.name }}</li>
-           <li> {{ ob.type }}</li>
-
-          </ul></li>
+          <li>
+           {{ ob }}
+           <ul>
+            <li> {{ ob.name }}</li>
+            <li> {{ ob.type }}</li>
+           </ul>
+          </li>
         {% endfor %}
         </ul>
 
